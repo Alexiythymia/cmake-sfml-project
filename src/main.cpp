@@ -2,7 +2,7 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(1920, 1080), "SFML works!");
+    sf::RenderWindow window(sf::VideoMode(800,600), "SFML works!");
     sf::RectangleShape rec(sf::Vector2f(100,200));
     rec.setPosition(200,200);
     rec.setFillColor(sf::Color::Blue);
